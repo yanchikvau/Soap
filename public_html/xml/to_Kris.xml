@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cart_list>
+	<order_id>1</order_id>
+	<carts>
+		<cart>
+			<cart_id>11</cart_id>
+			<product_list>
+				<product>
+					<name>Tomato</name>
+					<weigth>120.00</weigth>
+					<price>100.00</price>
+				</product>
+				<product>
+					<name>cucumber</name>
+					<weigth>120.00</weigth>
+					<price>100.00</price>
+				</product> 				
+			</product_list>
+			<date>01.01.2019</date>
+			<total_price>999</total_price>
+		</cart>
+		<cart>
+			<cart_id>11</cart_id>
+			<product_list>
+				<product>
+					<name>Tomato</name>
+					<weigth>120.00</weigth>
+					<price>100.00</price>
+				</product>
+				<product>
+					<name>cucumber</name>
+					<weigth>120.00</weigth>
+					<price>100.00</price>
+				</product> 				
+			</product_list>
+			<date>01.01.2019</date>
+			<total_price>999</total_price>
+		</cart>
+	
+	
+   </carts> 
+</cart_list>

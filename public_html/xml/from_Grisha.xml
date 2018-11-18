@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<warehouse>
+	<title>sandwich</title>
+	<order_id>17</order_id>
+	<cart_list>
+		<cart>
+			<cart_id>2</cart_id>
+			<product_list>
+				<product>
+					<name>Tomato</name>
+					<weigth>120.00</weigth>
+					<devilery_date>23-12-2018</devilery_date>
+					<price>100.00</price>
+				</product>
+				<product>
+					<name>cucumber</name>
+					<weigth>120.00</weigth>
+					<devilery_date>23-12-2018</devilery_date>
+					<price>100.00</price>
+				</product> 				
+			</product_list>
+		</cart>
+		<cart>
+			<cart_id>22</cart_id>
+			<product_list>
+				<product>
+					<name>Tomato</name>
+					<weigth>120.00</weigth>
+					<devilery_date>23-12-2018</devilery_date>
+					<price>100.00</price>
+				</product>
+				<product>
+					<name>cucumber</name>
+					<weigth>120.00</weigth>
+					<devilery_date>23-12-2018</devilery_date>
+					<price>100.00</price>
+				</product> 				
+			</product_list>
+		</cart>		
+	</cart_list>
+</warehouse>
