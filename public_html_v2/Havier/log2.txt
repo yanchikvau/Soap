@@ -1,0 +1,275 @@
+ArrayObject Object
+(
+    [storage:ArrayObject:private] => Array
+        (
+            [0] => SoapVar Object
+                (
+                    [enc_type] => 301
+                    [enc_value] => Recipe Object
+                        (
+                            [title] => 4
+                            [product_list] => ArrayObject Object
+                                (
+                                    [storage:ArrayObject:private] => Array
+                                        (
+                                            [0] => SoapVar Object
+                                                (
+                                                    [enc_type] => 301
+                                                    [enc_value] => Product Object
+                                                        (
+                                                            [name] => pelmen
+                                                            [weigth] => 0
+                                                        )
+
+                                                    [enc_name] => product
+                                                )
+
+                                            [1] => SoapVar Object
+                                                (
+                                                    [enc_type] => 301
+                                                    [enc_value] => Product Object
+                                                        (
+                                                            [name] => pelmen
+                                                            [weigth] => 0
+                                                        )
+
+                                                    [enc_name] => product
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [enc_name] => List1
+                )
+
+            [1] => SoapVar Object
+                (
+                    [enc_type] => 301
+                    [enc_value] => Recipe Object
+                        (
+                            [title] => buter
+                            [product_list] => ArrayObject Object
+                                (
+                                    [storage:ArrayObject:private] => Array
+                                        (
+                                            [0] => SoapVar Object
+                                                (
+                                                    [enc_type] => 301
+                                                    [enc_value] => Product Object
+                                                        (
+                                                            [name] => Колбаса
+                                                            [weigth] => 30
+                                                        )
+
+                                                    [enc_name] => product
+                                                )
+
+                                            [1] => SoapVar Object
+                                                (
+                                                    [enc_type] => 301
+                                                    [enc_value] => Product Object
+                                                        (
+                                                            [name] => Хлеб
+                                                            [weigth] => 50
+                                                        )
+
+                                                    [enc_name] => product
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [enc_name] => List1
+                )
+
+            [2] => SoapVar Object
+                (
+                    [enc_type] => 301
+                    [enc_value] => Recipe Object
+                        (
+                            [title] => pelmen
+                            [product_list] => ArrayObject Object
+                                (
+                                    [storage:ArrayObject:private] => Array
+                                        (
+                                            [0] => SoapVar Object
+                                                (
+                                                    [enc_type] => 301
+                                                    [enc_value] => Product Object
+                                                        (
+                                                            [name] => meat
+                                                            [weigth] => 400
+                                                        )
+
+                                                    [enc_name] => product
+                                                )
+
+                                            [1] => SoapVar Object
+                                                (
+                                                    [enc_type] => 301
+                                                    [enc_value] => Product Object
+                                                        (
+                                                            [name] => testo
+                                                            [weigth] => 500
+                                                        )
+
+                                                    [enc_name] => product
+                                                )
+
+                                            [2] => SoapVar Object
+                                                (
+                                                    [enc_type] => 301
+                                                    [enc_value] => Product Object
+                                                        (
+                                                            [name] => testo
+                                                            [weigth] => 500
+                                                        )
+
+                                                    [enc_name] => product
+                                                )
+
+                                            [3] => SoapVar Object
+                                                (
+                                                    [enc_type] => 301
+                                                    [enc_value] => Product Object
+                                                        (
+                                                            [name] => testo
+                                                            [weigth] => 500
+                                                        )
+
+                                                    [enc_name] => product
+                                                )
+
+                                            [4] => SoapVar Object
+                                                (
+                                                    [enc_type] => 301
+                                                    [enc_value] => Product Object
+                                                        (
+                                                            [name] => testo
+                                                            [weigth] => 500
+                                                        )
+
+                                                    [enc_name] => product
+                                                )
+
+                                            [5] => SoapVar Object
+                                                (
+                                                    [enc_type] => 301
+                                                    [enc_value] => Product Object
+                                                        (
+                                                            [name] => testo
+                                                            [weigth] => 500
+                                                        )
+
+                                                    [enc_name] => product
+                                                )
+
+                                            [6] => SoapVar Object
+                                                (
+                                                    [enc_type] => 301
+                                                    [enc_value] => Product Object
+                                                        (
+                                                            [name] => testo
+                                                            [weigth] => 500
+                                                        )
+
+                                                    [enc_name] => product
+                                                )
+
+                                            [7] => SoapVar Object
+                                                (
+                                                    [enc_type] => 301
+                                                    [enc_value] => Product Object
+                                                        (
+                                                            [name] => testo
+                                                            [weigth] => 500
+                                                        )
+
+                                                    [enc_name] => product
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [enc_name] => List1
+                )
+
+            [3] => SoapVar Object
+                (
+                    [enc_type] => 301
+                    [enc_value] => Recipe Object
+                        (
+                            [title] => q
+                            [product_list] => ArrayObject Object
+                                (
+                                    [storage:ArrayObject:private] => Array
+                                        (
+                                            [0] => SoapVar Object
+                                                (
+                                                    [enc_type] => 301
+                                                    [enc_value] => Product Object
+                                                        (
+                                                            [name] => q
+                                                            [weigth] => 10
+                                                        )
+
+                                                    [enc_name] => product
+                                                )
+
+                                            [1] => SoapVar Object
+                                                (
+                                                    [enc_type] => 301
+                                                    [enc_value] => Product Object
+                                                        (
+                                                            [name] => q
+                                                            [weigth] => 10
+                                                        )
+
+                                                    [enc_name] => product
+                                                )
+
+                                            [2] => SoapVar Object
+                                                (
+                                                    [enc_type] => 301
+                                                    [enc_value] => Product Object
+                                                        (
+                                                            [name] => q
+                                                            [weigth] => 10
+                                                        )
+
+                                                    [enc_name] => product
+                                                )
+
+                                            [3] => SoapVar Object
+                                                (
+                                                    [enc_type] => 301
+                                                    [enc_value] => Product Object
+                                                        (
+                                                            [name] => q
+                                                            [weigth] => 10
+                                                        )
+
+                                                    [enc_name] => product
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [enc_name] => List1
+                )
+
+        )
+
+)

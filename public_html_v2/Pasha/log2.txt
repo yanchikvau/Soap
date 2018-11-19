@@ -1,0 +1,9 @@
+Order_info Object
+(
+    [order_id] => 17
+    [dish_name] => buter
+    [number_of_servings] => 2
+    [weigth] => 1200
+    [date] => 0000-00-00
+    [price] => 1000
+)

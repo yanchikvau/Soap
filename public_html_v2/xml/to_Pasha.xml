@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<order_info>
+	<order_id>1</order_id>
+	<dish_name>greek salad</dish_name>
+	<number_of_servings>2</number_of_servings>
+	<weigth>25.00</weigth>
+	<date>01.01.2019</date>
+	<price>999</price>
+</order_info>
+
+----------------------------------------------------
+
+
+<element name="order_info" type="Order_info" />
+<complexType name="Order_info">
+	<sequence>
+		<element name="order_id" type="decimal" />
+		<element name="dish_name" type="string" />
+		<element name="number_of_servings" type="decimal" />
+		<element name="weigth" type="decimal" />
+		<element name="date" type="date" />
+		<element name="price" type="decimal" />
+	</sequence>
+</complexType>
+
+
+
+
+
+
+
+
+
+<element name="message" type="Message" />
+<complexType name="Message">
+	<sequence>
+		<element name="phone" type="string" />
+		<element name="text" type="string" />
+		<element name="date" type="dateTime" />
+		<element name="type" type="decimal" />
+	</sequence>
+</complexType>

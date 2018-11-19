@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<wsdl:definitions name="Library"
+                  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                  targetNamespace="Library"
+                  xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+                  xmlns:tns="Library"
+                  xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+
+    <xsd:documentation></xsd:documentation>
+
+    <wsdl:types>
+        <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="Library">
+            <xsd:complexType name="Status_ok">
+                <xsd:sequence>
+                    <xsd:element name="status_ok" type="xsd:string"></xsd:element>
+                </xsd:sequence>
+            </xsd:complexType>
+			<xsd:complexType name="list_of_recipes">
+                <xsd:sequence>
+                    <xsd:element name="list1" type="xsd:list1"></xsd:element>
+                </xsd:sequence>
+            </xsd:complexType>
+			<xsd:complexType name="recipe">
+                <xsd:sequence>
+                    <xsd:element name="title" type="xsd:string"></xsd:element>
+					<xsd:element name="product_list" type="xsd:product_list"></xsd:element>
+                </xsd:sequence>
+            </xsd:complexType>
+			<xsd:complexType name="product_list">
+                <xsd:sequence>
+                    <xsd:element name="product" type="xsd:product"></xsd:element>
+				 </xsd:sequence>
+            </xsd:complexType>
+			<xsd:complexType name="product">
+                <xsd:sequence>
+                    <xsd:element name="name" type="xsd:string"></xsd:element>
+					 <xsd:element name="weigth" type="xsd:string"></xsd:element>
+				 </xsd:sequence>
+            </xsd:complexType>
+			<xsd:complexType name="list1">
+                <xsd:sequence>
+                    <xsd:element name="recipe" type="xsd:recipe"></xsd:element>
+				 </xsd:sequence>
+            </xsd:complexType>
+        </xsd:schema>
+    </wsdl:types>
+
+    <wsdl:message name="bookYearRequest">
+        <wsdl:part name="list_of_recipes" type="xsd:list_of_recipes"></wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="bookYearResponse">
+        <wsdl:part name="status_ok" type="tns:Status_ok"></wsdl:part>
+    </wsdl:message>
+
+    <wsdl:portType name="Library">
+        <wsdl:operation name="push_recipe">
+            <wsdl:input message="tns:bookYearRequest"/>
+            <wsdl:output message="tns:bookYearResponse"/>
+        </wsdl:operation>
+    </wsdl:portType>
+
+    <wsdl:binding name="Library" type="tns:Library">
+        <soap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
+        <wsdl:operation name="push_recipe">
+            <soap:operation soapAction="http://cs35901.tmweb.ru/Havier2/server.php"/>
+            <wsdl:input>
+                <soap:body use="literal" namespace="Library"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal" namespace="Library"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+
+    <wsdl:service name="Library">
+        <wsdl:port binding="tns:Library" name="BookLibrary">
+            <soap:address location="http://cs35901.tmweb.ru/Havier2/server.php"/>
+        </wsdl:port>
+    </wsdl:service>
+
+</wsdl:definitions>

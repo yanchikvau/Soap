@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list_of_recipes>
+	<recipe>
+		<title>sandwich</title>
+		<product_list>
+		   <product>
+			 <name>Salmon</name>
+			 <weigth>600.00</weigth>
+		   </product>
+		   <product>
+			 <name>WhiteBread</name>
+			 <weigth>25.00</weigth>
+		   </product>
+		</product_list> 
+	</recipe>
+	<recipe>
+		<title>sandwich</title>
+		<product_list>
+		   <product>
+			 <name>Salmon</name>
+			 <weigth>600.00</weigth>
+		   </product>
+		   <product>
+			 <name>WhiteBread</name>
+			 <weigth>25.00</weigth>
+		   </product>
+		</product_list> 
+	</recipe>
+</list_of_recipes>
