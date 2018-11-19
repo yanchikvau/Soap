@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<order>
+	<order_id>1</order_id>
+	<dish_name>greek salad</dish_name>
+	<number_of_servings>2</number_of_servings>
+</order>
+
+<element name="order" type="Order" />
+<complexType name="Order">
+	<sequence>
+		<element name="order_id" type="string" />
+		<element name="dish_name" type="string" />
+		<element name="number_of_servings" type="decimal" />
+	</sequence>
+</complexType>

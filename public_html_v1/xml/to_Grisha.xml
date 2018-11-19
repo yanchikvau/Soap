@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<warehouse>
+	<title>sandwich</title>
+	<order_id>17</order_id>
+	<cart>
+	   <product>
+		 <name>Salmon</name>
+		 <weigth>600.00</weigth>
+	   </product>
+	   <product>
+		 <name>WhiteBread</name>
+		 <weigth>25.00</weigth>
+	   </product>
+	</cart> 
+</warehouse>

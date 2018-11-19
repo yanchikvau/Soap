@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:ns1="http://cs35901.tmweb.ru/"><env:Body><ns1:Request><ns1:messageList><Message><order_id>12312</order_id><dish_name>byter</dish_name><number_of_servings>2</number_of_servings></Message></ns1:messageList></ns1:Request></env:Body></env:Envelope>
